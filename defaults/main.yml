@@ -1,0 +1,7 @@
+---
+# User variables for role
+zip_packages:
+  - zip
+  - unzip
+
+zip_packages_state: present
