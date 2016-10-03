@@ -15,11 +15,6 @@ Role Variables
 
 Please refer to the [defaults file](/defaults/main.yml) for an up to date list of input parameters.
 
-Dependencies
-------------
-
-By default this role does not depend on any external roles. If any such dependency is required please [add them](/meta/main.yml) according to [the documentation](http://docs.ansible.com/ansible/playbooks_roles.html#role-dependencies)
-
 Example Playbook
 ----------------
 
@@ -27,7 +22,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: zip zip_packages: zip }
+         - { role: zip }
 
 
 Testing
