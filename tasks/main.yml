@@ -1,3 +1,4 @@
+# vim: ts=2 sw=2 et :
 ---
 # Include variable definitions
 - name: "include variable overrides"
@@ -13,9 +14,9 @@
 
 # Install packages
 - name: install zip packages
-  package: >
-    name="{{ zip_packages }}"
-    state="{{ zip_packages_state }}"
+  package:
+    name: "{{ zip_packages }}"
+    state: "{{ zip_packages_state }}"
   become: yes
   tags:
     - zip
