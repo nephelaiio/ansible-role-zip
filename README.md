@@ -22,7 +22,7 @@ Including an example of how to use your role (for instance, with variables passe
 
     - hosts: servers
       roles:
-         - { role: zip }
+         - nephelaiio.zip
 
 
 Testing
@@ -31,7 +31,7 @@ Testing
 Role is tested against the following distributions (docker images):
   * Ubuntu Xenial
   * CentOS 7
-  * Debian Jessie
+  * Debian Stretch
   * Arch Linux
 
 You can test the role from sources using the command line using molecule directly
