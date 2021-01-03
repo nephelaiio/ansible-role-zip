@@ -1,14 +1,12 @@
 ---
 galaxy_info:
+  role_name: zip
   author: Ted Cook
   description: An Ansible role to install and configure zip
   license: MIT
   min_ansible_version: 2.2
   platforms:
     - name: EL
-      versions:
-        - all
-    - name: Archlinux
       versions:
         - all
     - name: Ubuntu

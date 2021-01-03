@@ -1,6 +1,5 @@
 # vim: ts=2 sw=2 et :
 ---
-# User variables for role
 zip_packages:
   - zip
   - unzip

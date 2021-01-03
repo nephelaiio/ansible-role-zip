@@ -1,7 +1,8 @@
 # nephelaiio.zip
 
-[![Build Status](https://travis-ci.org/nephelaiio/ansible-role-zip.svg?branch=master)](https://travis-ci.org/nephelaiio/ansible-role-zip)
-[![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-systemd--service-blue.svg)](https://galaxy.ansible.com/nephelaiio/zip/)
+
+[![Build Status](https://github.com/nephelaiio/ansible-role-zip/workflows/.github/workflows/main.yml/badge.svg)](https://travis-ci.org/nephelaiio/ansible-role-zip)
+[![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-nephelaiio.zip-blue.svg)](https://galaxy.ansible.com/nephelaiio/zip/)
 
 An [ansible role](https://galaxy.ansible.com/nephelaiio/zip) to install and configure zip
 
@@ -24,11 +25,11 @@ Including an example of how to use your role (for instance, with variables passe
 Please make sure your environment has [docker](https://www.docker.com) installed in order to run role validation tests. Additional python dependencies are listed in the [requirements file](https://github.com/nephelaiio/ansible-role-requirements/blob/master/requirements.txt)
 
 Role is tested against the following distributions (docker images):
+  * Ubuntu Focal
   * Ubuntu Bionic
   * Ubuntu Xenial
   * CentOS 7
   * Debian Stretch
-  * Arch Linux
 
 You can test the role directly from sources using command ` molecule test `
 
