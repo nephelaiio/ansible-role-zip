@@ -1,7 +1,6 @@
 # nephelaiio.zip
 
-
-[![Build Status](https://github.com/nephelaiio/ansible-role-zip/workflows/.github/workflows/main.yml/badge.svg)](https://travis-ci.org/nephelaiio/ansible-role-zip)
+[![Build Status](https://github.com/nephelaiio/ansible-role-zip/workflows/CI/badge.svg)](https://github.com/nephelaiio/ansible-role-zip/actions)
 [![Ansible Galaxy](http://img.shields.io/badge/ansible--galaxy-nephelaiio.zip-blue.svg)](https://galaxy.ansible.com/nephelaiio/zip/)
 
 An [ansible role](https://galaxy.ansible.com/nephelaiio/zip) to install and configure zip
